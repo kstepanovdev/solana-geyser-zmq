@@ -62,7 +62,7 @@ jobs:
 
       - name: Install solana
         run: |
-          curl -sSf https://raw.githubusercontent.com/solana-labs/solana/v1.13.5/install/solana-install-init.sh | sh -s - 1.13.7
+          curl -sSf https://raw.githubusercontent.com/solana-labs/solana/v1.18.26/install/solana-install-init.sh | sh -s - 1.18.26
           export PATH="/home/runner/.local/share/solana/install/active_release/bin:$PATH"
 
       - name: Test geyser plugin
